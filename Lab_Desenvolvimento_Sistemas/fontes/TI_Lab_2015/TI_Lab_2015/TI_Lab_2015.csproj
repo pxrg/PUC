@@ -45,6 +45,9 @@
     <Reference Include="NHibernate">
       <HintPath>..\..\dlls\NHibernate-4.0.2.GA-bin\Required_Bins\NHibernate.dll</HintPath>
     </Reference>
+    <Reference Include="NHibernate.ByteCode.LinFu">
+      <HintPath>..\..\dlls\NHibernate.ByteCode.LinFu.dll</HintPath>
+    </Reference>
     <Reference Include="NHibernate.Mapping.Attributes">
       <HintPath>..\..\dlls\NHibernate.Mapping.Attributes.dll</HintPath>
     </Reference>
@@ -53,6 +56,7 @@
     <Reference Include="System.Core" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.SqlServerCe, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
     <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
@@ -206,6 +210,7 @@
     <Content Include="Images\orderedList8.png" />
     <Content Include="Images\orderedList9.png" />
     <Content Include="packages.config" />
+    <Content Include="hibernate.cfg.xml" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.7.1.js" />
     <Content Include="Scripts\jquery-1.7.1.min.js" />

@@ -33,3 +33,4 @@ C:\Users\PRX\Documents\GitHub\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_201
 C:\Users\PRX\Documents\GitHub\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\NHibernate.pdb
 C:\Users\PRX\Documents\GitHub\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\NHibernate.xml
 C:\Users\PRX\Documents\GitHub\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\NHibernate.Mapping.Attributes.dll
+C:\Users\PRX\Documents\GitHub\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\NHibernate.ByteCode.LinFu.dll

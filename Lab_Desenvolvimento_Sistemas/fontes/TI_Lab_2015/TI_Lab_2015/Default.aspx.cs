@@ -18,7 +18,8 @@ namespace TI_Lab_2015
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            Configuration cfg = new Configuration().Configure();
+            Configuration cfg = new Configuration();
+            cfg = cfg.Configure();
             SchemaUpdate update = new SchemaUpdate(cfg);
             update.Execute(true, true);
 
