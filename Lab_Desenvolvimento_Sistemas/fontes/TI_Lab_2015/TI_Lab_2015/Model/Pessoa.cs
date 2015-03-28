@@ -11,7 +11,7 @@ namespace TI_Lab_2015.Model
     public abstract class Pessoa
     {
         [Id(0, Name = "Id", Column = "id")]
-        [Generator(1, Class = "native")]
+        [Generator(1, Class = "hilo")]
         public virtual Int16 Id { get; set; }
         [Property(Column = "nome", Length = 150)]
         public virtual String Nome { get; set; }

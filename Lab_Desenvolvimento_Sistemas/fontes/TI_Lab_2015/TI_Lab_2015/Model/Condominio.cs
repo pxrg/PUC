@@ -17,6 +17,6 @@ namespace TI_Lab_2015.Model
         public virtual String Nome { get; set; }
 
         [ManyToOne(Column = "endereco_id", Class = "Endereco", ClassType = typeof(Endereco))]
-        public virtual Endereco endereco { get; set; }
+        public virtual Endereco Endereco { get; set; }
     }
 }

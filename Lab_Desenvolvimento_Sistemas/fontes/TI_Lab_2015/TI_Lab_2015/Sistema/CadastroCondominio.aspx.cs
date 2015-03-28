@@ -27,10 +27,11 @@ namespace TI_Lab_2015.Sistema
             try
             {
                 this.salvarCondominio();
+                ClientScript.RegisterStartupScript(this.GetType(), "myalert", "alert('" + "Registro salvo com sucesso!" + "');", true);
             }
             catch (Exception ex)
             {
-
+                ClientScript.RegisterStartupScript(this.GetType(), "myalert", "alert('" + "Erro ao salvar!" + "');", true);
             }
         }
 
@@ -43,11 +44,25 @@ namespace TI_Lab_2015.Sistema
 
         private void salvarCondominio()
         {
+            // Preenchendo o endereco
+            Endereco end = new Endereco();
+            end.Logradouro = txtLogradouro.Text;
+            end.Numero = txtNumero.Text;
+            end.Cep = txtCep.Text;
+            end.Complemento = txtComplemento.Text;
+            end.Bairro = txtBairro.Text;
+            end.Cidade = txtCidade.Text;
+            end.Estado = txtEstado.Text;
+            NHibernateDAO.save(end);
+            //end
+
+            // Preenchendo Condominio
             Condominio cond = new Condominio();
             if (hdfId.Value != null && hdfId.Value != String.Empty)
             {
                 cond.Id = Int16.Parse(hdfId.Value);
             }
+            cond.Endereco = end;
             cond.Nome = txtNome.Text;
             NHibernateDAO.save(cond);
         }
