@@ -10,7 +10,7 @@ namespace TI_Lab_2015.Model
     [Class(Table = "despesas_imoveis")]
     public class DespesaImovel
     {
-        [Id(0, Column = "id")]
+        [Id(0, Name="Id",Column = "id")]
         [Generator(1, Class = "native")]
         public virtual Int16 Id { get; set; }
         [Property(Column = "pago", Type = "TrueFalse")]

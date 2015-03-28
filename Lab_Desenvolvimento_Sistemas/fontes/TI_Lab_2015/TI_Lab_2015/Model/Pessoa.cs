@@ -10,14 +10,14 @@ namespace TI_Lab_2015.Model
     [Class(Abstract = true)]
     public abstract class Pessoa
     {
-        [Id(0,Column="id")]
-        [Generator(1, Class="native")]
+        [Id(0, Name = "Id", Column = "id")]
+        [Generator(1, Class = "native")]
         public virtual Int16 Id { get; set; }
-        [Property(Column="nome", Length=150)]
+        [Property(Column = "nome", Length = 150)]
         public virtual String Nome { get; set; }
         [Property(Column = "cpf", Length = 11)]
         public virtual String Cpf { get; set; }
-        [Property(Column="nascimento")]
+        [Property(Column = "nascimento")]
         public virtual DateTime Nascimento { get; set; }
         [Property(Column = "sexo", Length = 1)]
         public virtual char Sexo { get; set; }

@@ -7,10 +7,10 @@ using System.Web;
 namespace TI_Lab_2015.Model
 {
     [Serializable]
-    [Class(Table = "patrimonios")]
+    [Class(Table = "espacos_condominio")]
     public class EspacoCondominio
     {
-        [Id(0, Column = "id")]
+        [Id(0, Name="Id",Column = "id")]
         [Generator(1, Class = "native")]
         public virtual Int16 Id { get; set; }
         [Property(Column = "nome")]

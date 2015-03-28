@@ -14,6 +14,7 @@ namespace TI_Lab_2015
         void Application_Start(object sender, EventArgs e)
         {
             // Code that runs on application startup
+            AppDomain.CurrentDomain.SetData("SQLServerCompactEditionUnderWebHosting", true);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
             AuthConfig.RegisterOpenAuth();
         }

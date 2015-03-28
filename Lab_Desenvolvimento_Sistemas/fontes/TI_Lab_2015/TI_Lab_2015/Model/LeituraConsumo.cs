@@ -7,10 +7,10 @@ using System.Web;
 namespace TI_Lab_2015.Model
 {
     [Serializable]
-    [Class(Table="leituras_consumo")]
+    [Class(Table="leituras_consumos")]
     public class LeituraConsumo
     {
-        [Id(0, Column = "id")]
+        [Id(0, Name="Id",Column = "id")]
         [Generator(1, Class = "native")]
         public virtual Int16 Id { get; set; }
         [Property(Column = "data_referencia")]
@@ -21,7 +21,7 @@ namespace TI_Lab_2015.Model
         public virtual float ValorGas { get; set; }
         [Property(Column = "valor_energia", Scale = 5, Precision = 2)]
         public virtual float ValorEnergia { get; set; }
-        [ManyToOne(Column = "valor")]
+        [ManyToOne(Column = "imovel")]
         public virtual Imovel Imovel { get; set; }
         
     }

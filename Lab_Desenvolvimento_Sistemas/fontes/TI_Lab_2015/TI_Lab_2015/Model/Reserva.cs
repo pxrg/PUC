@@ -10,7 +10,7 @@ namespace TI_Lab_2015.Model
     [Class(Table="reservas")]
     public class Reserva
     {
-        [Id(0, Column = "id")]
+        [Id(0, Name="Id",Column = "id")]
         [Generator(1, Class = "native")]
         public virtual Int16 Id { get; set; }
         [Property(Column = "pago", Type = "TrueFalse")]
@@ -27,6 +27,6 @@ namespace TI_Lab_2015.Model
         [ManyToOne(Column = "id_morador")]
         public virtual Morador Morador { get; set; }
         [ManyToOne(Column = "id_espaco_cond")]
-        public virtual EspacoCondominio espaco { get; set; }
+        public virtual EspacoCondominio EspacoCondominio { get; set; }
     }
 }

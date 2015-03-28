@@ -7,7 +7,8 @@ using System.Web;
 namespace TI_Lab_2015.Model
 {
     [Serializable]
-    [JoinedSubclass(Table = "moradores")]
+    //[JoinedSubclass(Table = "moradores", Extends = "Pessoa")]
+    [UnionSubclass(Table = "moradores", Extends = "TI_Lab_2015.Model.Pessoa")]
     public class Morador:Pessoa
     {
         [Property(Column = "tipo_morador")]
