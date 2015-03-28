@@ -207,7 +207,6 @@
     <Content Include="Images\orderedList8.png" />
     <Content Include="Images\orderedList9.png" />
     <Content Include="packages.config" />
-    <Content Include="hibernate.cfg.xml" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.7.1.js" />
     <Content Include="Scripts\jquery-1.7.1.min.js" />
@@ -239,6 +238,15 @@
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="Sistema\CadastroCondominio.aspx" />
+    <Content Include="Style\bootstrap\css\bootstrap-theme.css" />
+    <Content Include="Style\bootstrap\css\bootstrap-theme.min.css" />
+    <Content Include="Style\bootstrap\css\bootstrap.css" />
+    <Content Include="Style\bootstrap\css\bootstrap.min.css" />
+    <Content Include="Style\bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Style\bootstrap\js\bootstrap.js" />
+    <Content Include="Style\bootstrap\js\bootstrap.min.js" />
+    <Content Include="Style\Style.css" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -323,7 +331,15 @@
     <Compile Include="Model\Reserva.cs" />
     <Compile Include="Model\Veiculo.cs" />
     <Compile Include="Model\Visitante.cs" />
+    <Compile Include="Persistence\NHibernateDAO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sistema\CadastroCondominio.aspx.cs">
+      <DependentUpon>CadastroCondominio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sistema\CadastroCondominio.aspx.designer.cs">
+      <DependentUpon>CadastroCondominio.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -331,18 +347,21 @@
     <Compile Include="Site.Master.designer.cs">
       <DependentUpon>Site.Master</DependentUpon>
     </Compile>
+    <Compile Include="Utils\SessionFactory.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Persistence\" />
-    <Folder Include="Sistema\" />
-    <Folder Include="Style\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Account\Web.config" />
     <Content Include="Site.Master" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Style\bootstrap\css\bootstrap-theme.css.map" />
+    <Content Include="Style\bootstrap\css\bootstrap.css.map" />
+    <Content Include="Style\bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Style\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Style\bootstrap\fonts\glyphicons-halflings-regular.woff" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

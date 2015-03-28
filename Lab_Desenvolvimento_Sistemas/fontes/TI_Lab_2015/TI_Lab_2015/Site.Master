@@ -12,6 +12,10 @@
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <meta name="viewport" content="width=device-width" />
     <asp:ContentPlaceHolder runat="server" ID="HeadContent" />
+    <link href="Style/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="Style/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="Style/Style.css" rel="stylesheet" />
+    <script src="Style/bootstrap/js/bootstrap.min.js"></script>
 </head>
 <body>
     <form runat="server">
