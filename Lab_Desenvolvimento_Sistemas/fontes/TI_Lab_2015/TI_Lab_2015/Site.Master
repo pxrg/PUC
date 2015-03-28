@@ -42,7 +42,7 @@
         <div class="content-wrapper">
             <div class="float-left">
                 <p class="site-title">
-                    <a runat="server" href="~/">your logo here</a>
+                    <a runat="server" href="~/">B</a><a href="~/">eta View</a>
                 </p>
             </div>
             <div class="float-right">
@@ -50,8 +50,7 @@
                     <asp:LoginView runat="server" ViewStateMode="Disabled">
                         <AnonymousTemplate>
                             <ul>
-                                <li><a id="registerLink" runat="server" href="~/Account/Register.aspx">Register</a></li>
-                                <li><a id="loginLink" runat="server" href="~/Account/Login.aspx">Log in</a></li>
+                                <li><a id="loginLink" runat="server" href="~/Account/Login.aspx">Sair</a></li>
                             </ul>
                         </AnonymousTemplate>
                         <LoggedInTemplate>
@@ -66,8 +65,10 @@
                 <nav>
                     <ul id="menu">
                         <li><a runat="server" href="~/">Home</a></li>
-                        <li><a runat="server" href="~/About.aspx">About</a></li>
-                        <li><a runat="server" href="~/Contact.aspx">Contact</a></li>
+                        <li><a runat="server" href="Sistema/CadastroNoticias.aspx">Noticias</a></li>
+                        <li><a runat="server" href="~/Contact.aspx">Financeiro</a></li>
+                        <li><a runat="server" href="~/Contact.aspx">Pessoa</a></li>
+                        <li><a runat="server" href="~/Contact.aspx">Condomínio</a></li>
                     </ul>
                 </nav>
             </div>
@@ -82,7 +83,7 @@
     <footer>
         <div class="content-wrapper">
             <div class="float-left">
-                <p>&copy; <%: DateTime.Now.Year %> - My ASP.NET Application</p>
+                <p>&copy; Copyright <%: DateTime.Now.Year %> </p>
             </div>
         </div>
     </footer>
