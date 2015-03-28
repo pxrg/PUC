@@ -247,6 +247,7 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Sistema\CadastroCondominio.aspx" />
+    <Content Include="Sistema\CadastroNoticias.aspx" />
     <Content Include="Style\bootstrap\css\bootstrap-theme.css" />
     <Content Include="Style\bootstrap\css\bootstrap-theme.min.css" />
     <Content Include="Style\bootstrap\css\bootstrap.css" />
@@ -347,6 +348,13 @@
     </Compile>
     <Compile Include="Sistema\CadastroCondominio.aspx.designer.cs">
       <DependentUpon>CadastroCondominio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\CadastroNoticias.aspx.cs">
+      <DependentUpon>CadastroNoticias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sistema\CadastroNoticias.aspx.designer.cs">
+      <DependentUpon>CadastroNoticias.aspx</DependentUpon>
     </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>

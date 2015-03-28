@@ -28,49 +28,43 @@ C:\Users\PRX\Documents\GitHub\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_201
 C:\Users\PRX\Documents\GitHub\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\Iesi.Collections.dll
 C:\Users\PRX\Documents\GitHub\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\NHibernate.dll
 C:\Users\PRX\Documents\GitHub\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\Iesi.Collections.xml
+C:\Users\PRX\Documents\GitHub\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\NHibernate.pdb
 C:\Users\PRX\Documents\GitHub\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\NHibernate.xml
 C:\Users\PRX\Documents\GitHub\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\NHibernate.Mapping.Attributes.dll
 C:\Users\PRX\Documents\GitHub\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\NHibernate.ByteCode.LinFu.dll
-C:\Users\487559\Documents\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\TI_Lab_2015.dll.config
-C:\Users\487559\Documents\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\TI_Lab_2015.dll
-C:\Users\487559\Documents\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\TI_Lab_2015.pdb
-C:\Users\487559\Documents\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\Antlr3.Runtime.dll
-C:\Users\487559\Documents\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\AspNet.ScriptManager.jQuery.dll
-C:\Users\487559\Documents\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
-C:\Users\487559\Documents\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\Castle.Core.dll
-C:\Users\487559\Documents\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\DotNetOpenAuth.AspNet.dll
-C:\Users\487559\Documents\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\DotNetOpenAuth.Core.dll
-C:\Users\487559\Documents\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\DotNetOpenAuth.OAuth.Consumer.dll
-C:\Users\487559\Documents\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\DotNetOpenAuth.OAuth.dll
-C:\Users\487559\Documents\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\DotNetOpenAuth.OpenId.dll
-C:\Users\487559\Documents\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
-C:\Users\487559\Documents\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\Iesi.Collections.dll
-C:\Users\487559\Documents\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\Microsoft.AspNet.Membership.OpenAuth.dll
-C:\Users\487559\Documents\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
-C:\Users\487559\Documents\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\Microsoft.ScriptManager.MSAjax.dll
-C:\Users\487559\Documents\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\Microsoft.ScriptManager.WebForms.dll
-C:\Users\487559\Documents\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\Microsoft.Web.Infrastructure.dll
-C:\Users\487559\Documents\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\NHibernate.ByteCode.Castle.dll
-C:\Users\487559\Documents\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\NHibernate.ByteCode.LinFu.dll
-C:\Users\487559\Documents\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\NHibernate.dll
-C:\Users\487559\Documents\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\NHibernate.Mapping.Attributes.dll
-C:\Users\487559\Documents\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\System.Web.Optimization.dll
-C:\Users\487559\Documents\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\System.Web.Providers.dll
-C:\Users\487559\Documents\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\WebGrease.dll
-C:\Users\487559\Documents\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\Castle.Core.xml
-C:\Users\487559\Documents\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\Iesi.Collections.xml
-C:\Users\487559\Documents\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\NHibernate.xml
-C:\Users\487559\Documents\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\NHibernate.ByteCode.Castle.pdb
-C:\Users\487559\Documents\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\DotNetOpenAuth.Core.xml
-C:\Users\487559\Documents\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\DotNetOpenAuth.OAuth.xml
-C:\Users\487559\Documents\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\DotNetOpenAuth.OAuth.Consumer.xml
-C:\Users\487559\Documents\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\DotNetOpenAuth.OpenId.xml
-C:\Users\487559\Documents\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
-C:\Users\487559\Documents\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\DotNetOpenAuth.AspNet.xml
-C:\Users\487559\Documents\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\obj\Debug\TI_Lab_2015.csprojResolveAssemblyReference.cache
-C:\Users\487559\Documents\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\obj\Debug\TI_Lab_2015.dll
-C:\Users\487559\Documents\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\obj\Debug\TI_Lab_2015.pdb
-C:\Users\PRX\Documents\GitHub\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\Castle.Core.dll
-C:\Users\PRX\Documents\GitHub\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\NHibernate.ByteCode.Castle.dll
-C:\Users\PRX\Documents\GitHub\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\Castle.Core.xml
-C:\Users\PRX\Documents\GitHub\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\NHibernate.ByteCode.Castle.pdb
+C:\Users\Luiz H\Desktop\PUC MINAS\Sistemas de Informação\Projeto de sistemas de informação\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\TI_Lab_2015.dll.config
+C:\Users\Luiz H\Desktop\PUC MINAS\Sistemas de Informação\Projeto de sistemas de informação\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\TI_Lab_2015.dll
+C:\Users\Luiz H\Desktop\PUC MINAS\Sistemas de Informação\Projeto de sistemas de informação\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\TI_Lab_2015.pdb
+C:\Users\Luiz H\Desktop\PUC MINAS\Sistemas de Informação\Projeto de sistemas de informação\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\Antlr3.Runtime.dll
+C:\Users\Luiz H\Desktop\PUC MINAS\Sistemas de Informação\Projeto de sistemas de informação\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Luiz H\Desktop\PUC MINAS\Sistemas de Informação\Projeto de sistemas de informação\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\Luiz H\Desktop\PUC MINAS\Sistemas de Informação\Projeto de sistemas de informação\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Luiz H\Desktop\PUC MINAS\Sistemas de Informação\Projeto de sistemas de informação\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\DotNetOpenAuth.Core.dll
+C:\Users\Luiz H\Desktop\PUC MINAS\Sistemas de Informação\Projeto de sistemas de informação\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Luiz H\Desktop\PUC MINAS\Sistemas de Informação\Projeto de sistemas de informação\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Luiz H\Desktop\PUC MINAS\Sistemas de Informação\Projeto de sistemas de informação\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Luiz H\Desktop\PUC MINAS\Sistemas de Informação\Projeto de sistemas de informação\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Luiz H\Desktop\PUC MINAS\Sistemas de Informação\Projeto de sistemas de informação\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\Iesi.Collections.dll
+C:\Users\Luiz H\Desktop\PUC MINAS\Sistemas de Informação\Projeto de sistemas de informação\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\Luiz H\Desktop\PUC MINAS\Sistemas de Informação\Projeto de sistemas de informação\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Luiz H\Desktop\PUC MINAS\Sistemas de Informação\Projeto de sistemas de informação\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Luiz H\Desktop\PUC MINAS\Sistemas de Informação\Projeto de sistemas de informação\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Luiz H\Desktop\PUC MINAS\Sistemas de Informação\Projeto de sistemas de informação\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Luiz H\Desktop\PUC MINAS\Sistemas de Informação\Projeto de sistemas de informação\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\NHibernate.ByteCode.LinFu.dll
+C:\Users\Luiz H\Desktop\PUC MINAS\Sistemas de Informação\Projeto de sistemas de informação\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\NHibernate.dll
+C:\Users\Luiz H\Desktop\PUC MINAS\Sistemas de Informação\Projeto de sistemas de informação\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\NHibernate.Mapping.Attributes.dll
+C:\Users\Luiz H\Desktop\PUC MINAS\Sistemas de Informação\Projeto de sistemas de informação\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\System.Web.Optimization.dll
+C:\Users\Luiz H\Desktop\PUC MINAS\Sistemas de Informação\Projeto de sistemas de informação\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\System.Web.Providers.dll
+C:\Users\Luiz H\Desktop\PUC MINAS\Sistemas de Informação\Projeto de sistemas de informação\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\WebGrease.dll
+C:\Users\Luiz H\Desktop\PUC MINAS\Sistemas de Informação\Projeto de sistemas de informação\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\Iesi.Collections.xml
+C:\Users\Luiz H\Desktop\PUC MINAS\Sistemas de Informação\Projeto de sistemas de informação\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\NHibernate.pdb
+C:\Users\Luiz H\Desktop\PUC MINAS\Sistemas de Informação\Projeto de sistemas de informação\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\NHibernate.xml
+C:\Users\Luiz H\Desktop\PUC MINAS\Sistemas de Informação\Projeto de sistemas de informação\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\DotNetOpenAuth.Core.xml
+C:\Users\Luiz H\Desktop\PUC MINAS\Sistemas de Informação\Projeto de sistemas de informação\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Luiz H\Desktop\PUC MINAS\Sistemas de Informação\Projeto de sistemas de informação\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Luiz H\Desktop\PUC MINAS\Sistemas de Informação\Projeto de sistemas de informação\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Luiz H\Desktop\PUC MINAS\Sistemas de Informação\Projeto de sistemas de informação\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Luiz H\Desktop\PUC MINAS\Sistemas de Informação\Projeto de sistemas de informação\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Luiz H\Desktop\PUC MINAS\Sistemas de Informação\Projeto de sistemas de informação\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\obj\Debug\TI_Lab_2015.csprojResolveAssemblyReference.cache
+C:\Users\Luiz H\Desktop\PUC MINAS\Sistemas de Informação\Projeto de sistemas de informação\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\obj\Debug\TI_Lab_2015.dll
+C:\Users\Luiz H\Desktop\PUC MINAS\Sistemas de Informação\Projeto de sistemas de informação\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\obj\Debug\TI_Lab_2015.pdb
