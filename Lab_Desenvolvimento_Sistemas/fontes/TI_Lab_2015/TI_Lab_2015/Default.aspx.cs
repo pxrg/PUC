@@ -10,6 +10,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using TI_Lab_2015.Model;
+using TI_Lab_2015.Persistence;
 
 namespace TI_Lab_2015
 {
@@ -17,21 +18,22 @@ namespace TI_Lab_2015
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            carregarNoticias();
         }
 
-        protected void Button1_Click(object sender, EventArgs e)
-        {
-            Configuration cfg = new Configuration();
-            cfg = cfg.Configure();
-            String path = @"C:\Users\PRX\Documents\GitHub\PUC\Lab_Desenvolvimento_Sistemas\fontes\TI_Lab_2015\TI_Lab_2015\App_Data";
-            HbmSerializer.Default.Validate = true;
-            HbmSerializer.Default.Serialize(path, Assembly.GetExecutingAssembly());
-            cfg.AddDirectory(new DirectoryInfo(path));    
-            //cfg.AddDirectory(new DirectoryInfo());
-            SchemaUpdate update = new SchemaUpdate(cfg);
-            update.Execute(true, true);
 
+        private void carregarNoticias()
+        {
+            IList<Noticia> noticias = NHibernateDAO.findAll<Noticia>("inclusao desc");
+            if (noticias != null)
+            {
+                rptNoticias.DataSource = noticias;
+                rptNoticias.DataBind();
+            }
+            else
+            {
+                lblSemNoticias.Text = "Nenhuma noticia cadastrada.";
+            }
         }
     }
 }

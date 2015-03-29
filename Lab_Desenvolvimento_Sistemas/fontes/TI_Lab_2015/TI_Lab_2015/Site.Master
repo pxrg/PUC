@@ -42,7 +42,7 @@
         <div class="content-wrapper">
             <div class="float-left">
                 <p class="site-title">
-                    <a runat="server" href="~/">B</a><a href="~/">eta View</a>
+                    <a runat="server" href="~/">Beta View</a>
                 </p>
             </div>
             <div class="float-right">
@@ -65,10 +65,10 @@
                 <nav>
                     <ul id="menu">
                         <li><a runat="server" href="~/">Home</a></li>
-                        <li><a runat="server" href="Sistema/CadastroNoticias.aspx">Noticias</a></li>
+                        <li><a runat="server" href="~/Sistema/CadastroNoticias.aspx">Noticias</a></li>
                         <li><a runat="server" href="~/Contact.aspx">Financeiro</a></li>
                         <li><a runat="server" href="~/Contact.aspx">Pessoa</a></li>
-                        <li><a runat="server" href="~/Contact.aspx">Condomínio</a></li>
+                        <li><a runat="server" href="~/Sistema/CadastroCondominio.aspx">Condomínio</a></li>
                     </ul>
                 </nav>
             </div>

@@ -58,6 +58,15 @@ namespace TI_Lab_2015.Sistema {
         protected global::System.Web.UI.WebControls.TextBox txtLogradouro;
         
         /// <summary>
+        /// rfvLogradouro control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvLogradouro;
+        
+        /// <summary>
         /// txtNumero control.
         /// </summary>
         /// <remarks>
@@ -103,6 +112,15 @@ namespace TI_Lab_2015.Sistema {
         protected global::System.Web.UI.WebControls.TextBox txtCidade;
         
         /// <summary>
+        /// rfvCidade control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvCidade;
+        
+        /// <summary>
         /// txtEstado control.
         /// </summary>
         /// <remarks>
@@ -110,6 +128,15 @@ namespace TI_Lab_2015.Sistema {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtEstado;
+        
+        /// <summary>
+        /// rfvEstado control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvEstado;
         
         /// <summary>
         /// ValidationSummary1 control.
@@ -146,5 +173,14 @@ namespace TI_Lab_2015.Sistema {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.HiddenField hdfId;
+        
+        /// <summary>
+        /// hdfIdEndereco control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.HiddenField hdfIdEndereco;
     }
 }

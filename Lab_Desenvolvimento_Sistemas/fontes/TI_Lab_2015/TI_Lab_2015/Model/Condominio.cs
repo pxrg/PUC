@@ -10,7 +10,7 @@ namespace TI_Lab_2015.Model
     [Class(Table = "condominios")]
     public class Condominio
     {
-        [Id(0, Name="Id",Column = "id")]
+        [Id(0, Name = "Id", Column = "id")]
         [Generator(1, Class = "native")]
         public virtual Int16 Id { get; set; }
         [Property(Column = "nome")]
@@ -18,5 +18,8 @@ namespace TI_Lab_2015.Model
 
         [ManyToOne(Column = "endereco_id", Class = "Endereco", ClassType = typeof(Endereco))]
         public virtual Endereco Endereco { get; set; }
+
+        public Condominio() { }
+        public Condominio(Int16 id) { this.Id = id; }
     }
 }

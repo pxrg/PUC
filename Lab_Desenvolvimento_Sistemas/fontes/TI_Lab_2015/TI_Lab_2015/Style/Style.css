@@ -5,6 +5,19 @@
 .row div {
     padding:3px;
 }
+.obrigatorio_span {
+    display:none;
+}
 .obrigatorio {
     color:red;
+    font-weight:bold;
+    font-size:16px;
+}
+
+.obrigatorio ul{
+    font-size:14px;
+}
+
+.titulo-pagina {
+    text-align:center;
 }

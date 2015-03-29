@@ -363,6 +363,7 @@
     <Compile Include="Site.Master.designer.cs">
       <DependentUpon>Site.Master</DependentUpon>
     </Compile>
+    <Compile Include="Utils\PageUtil.cs" />
     <Compile Include="Utils\SessionFactory.cs" />
   </ItemGroup>
   <ItemGroup>

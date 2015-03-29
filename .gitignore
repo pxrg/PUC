@@ -1,3 +1,5 @@
 *.bak
 
-*hbm.xml
+
+/Lab_Desenvolvimento_Sistemas/fontes/TI_Lab_2015/TI_Lab_2015/App_Data/*.hbm.xml
+/Lab_Desenvolvimento_Sistemas/fontes/TI_Lab_2015/TI_Lab_2015/App_Data/*.xml
