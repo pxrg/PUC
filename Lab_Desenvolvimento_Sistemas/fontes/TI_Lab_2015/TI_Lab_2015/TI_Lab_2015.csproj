@@ -247,7 +247,15 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Sistema\CadastroCondominio.aspx" />
+    <Content Include="Sistema\CadastroImoveis.aspx" />
     <Content Include="Sistema\CadastroNoticias.aspx" />
+    <Content Include="Sistema\CadastroVeiculo.aspx" />
+    <Content Include="Sistema\ConsultarPagamento.aspx" />
+    <Content Include="Sistema\ConsultarSaldoDevedor.aspx" />
+    <Content Include="Sistema\ControleConsumo.aspx" />
+    <Content Include="Sistema\EmitirBalancete.aspx" />
+    <Content Include="Sistema\RegistroDespesa.aspx" />
+    <Content Include="Sistema\RegistroReceita.aspx" />
     <Content Include="Style\bootstrap\css\bootstrap-theme.css" />
     <Content Include="Style\bootstrap\css\bootstrap-theme.min.css" />
     <Content Include="Style\bootstrap\css\bootstrap.css" />
@@ -349,12 +357,68 @@
     <Compile Include="Sistema\CadastroCondominio.aspx.designer.cs">
       <DependentUpon>CadastroCondominio.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Sistema\CadastroImoveis.aspx.cs">
+      <DependentUpon>CadastroImoveis.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sistema\CadastroImoveis.aspx.designer.cs">
+      <DependentUpon>CadastroImoveis.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Sistema\CadastroNoticias.aspx.cs">
       <DependentUpon>CadastroNoticias.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Sistema\CadastroNoticias.aspx.designer.cs">
       <DependentUpon>CadastroNoticias.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\CadastroVeiculo.aspx.cs">
+      <DependentUpon>CadastroVeiculo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sistema\CadastroVeiculo.aspx.designer.cs">
+      <DependentUpon>CadastroVeiculo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\ConsultarPagamento.aspx.cs">
+      <DependentUpon>ConsultarPagamento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sistema\ConsultarPagamento.aspx.designer.cs">
+      <DependentUpon>ConsultarPagamento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\ConsultarSaldoDevedor.aspx.cs">
+      <DependentUpon>ConsultarSaldoDevedor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sistema\ConsultarSaldoDevedor.aspx.designer.cs">
+      <DependentUpon>ConsultarSaldoDevedor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\ControleConsumo.aspx.cs">
+      <DependentUpon>ControleConsumo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sistema\ControleConsumo.aspx.designer.cs">
+      <DependentUpon>ControleConsumo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\EmitirBalancete.aspx.cs">
+      <DependentUpon>EmitirBalancete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sistema\EmitirBalancete.aspx.designer.cs">
+      <DependentUpon>EmitirBalancete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\RegistroDespesa.aspx.cs">
+      <DependentUpon>RegistroDespesa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sistema\RegistroDespesa.aspx.designer.cs">
+      <DependentUpon>RegistroDespesa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\RegistroReceita.aspx.cs">
+      <DependentUpon>RegistroReceita.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sistema\RegistroReceita.aspx.designer.cs">
+      <DependentUpon>RegistroReceita.aspx</DependentUpon>
     </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>

@@ -29,7 +29,7 @@
             <ItemTemplate>
                 <li class="_<%# Container.ItemIndex+1 %>">
                     <h5><%# ((TI_Lab_2015.Model.Noticia)Container.DataItem).Titulo %> - <i><%# ((TI_Lab_2015.Model.Noticia)Container.DataItem).Inclusao.ToShortDateString() %></i></h5>
-                    <%# ((TI_Lab_2015.Model.Noticia)Container.DataItem).Conteudo.Substring(0, 100) %> ...
+                    <%# ((TI_Lab_2015.Model.Noticia)Container.DataItem).Conteudo.Substring(0, ((TI_Lab_2015.Model.Noticia)Container.DataItem).Conteudo.Length >= 100 ? 100:((TI_Lab_2015.Model.Noticia)Container.DataItem).Conteudo.Length) %> ...
                     <br />
                     <a href="http://go.microsoft.com/fwlink/?LinkId=245146">Ler mais…</a>
                 </li>
