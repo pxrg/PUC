@@ -8,7 +8,7 @@ namespace TI_Lab_2015.Model
 {
     [Serializable]
     [Class(Table = "condominios")]
-    public class Condominio
+    public partial class Condominio
     {
         [Id(0, Name = "Id", Column = "id")]
         [Generator(1, Class = "native")]

@@ -3,6 +3,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Web;
 using TI_Lab_2015.Utils;
 
@@ -51,12 +52,49 @@ namespace TI_Lab_2015.Persistence
             {
                 try
                 {
-                    String hql = "From " + typeof(T).Name;
+                    StringBuilder hql = new StringBuilder("From ").Append(typeof(T).Name);
                     if (orderField != null && orderField.Trim() != String.Empty)
                     {
-                        hql += " order by " + orderField.Trim();
+                        hql.Append(" order by ").Append(orderField.Trim());
                     }
-                    IQuery query = session.CreateQuery(hql);
+                    IQuery query = session.CreateQuery(hql.ToString());
+                    result = query.List<T>();
+                }
+                catch (Exception ex)
+                {
+                    throw new Exception(ex.Message, ex);
+                }
+
+            }
+            return result;
+        }
+
+
+        public static IList<T> find<T>(Dictionary<String, Object> conditions)
+        {
+            IList<T> result = null;
+            using (ISession session = SessionFactory.OpenSession())
+            {
+                try
+                {
+                    StringBuilder hql = new StringBuilder("From ").Append(typeof(T).Name);
+                    if (conditions != null && conditions.Count > 0)
+                    {
+                        hql.Append(" where ");
+                        int count = 0, last = conditions.Count - 1;
+                        foreach (KeyValuePair<string, Object> pair in conditions)
+                        {
+                            hql.Append(pair.Key);
+                            hql.Append(" = :");
+                            hql.Append(pair.Key);
+                            count++;
+                            if (count < last)
+                            {
+                                hql.Append(" and ");
+                            }
+                        }
+                    }
+                    IQuery query = session.CreateQuery(hql.ToString());
                     result = query.List<T>();
                 }
                 catch (Exception ex)

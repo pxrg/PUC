@@ -74,8 +74,7 @@ namespace TI_Lab_2015.Sistema
             if (hdfId.Value != null && hdfId.Value != String.Empty)
             {
                 noticia.Id = Int16.Parse(hdfId.Value);
-            }
-            if (noticia.Id == null || noticia.Id == 0)
+            }else
             {
                 noticia.Inclusao = DateTime.Now;
             }

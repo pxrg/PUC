@@ -39,7 +39,7 @@
                     <label>Cep:</label>
                 </div>
                 <div class="col-sm-4">
-                    <asp:TextBox ID="txtCep" CssClass="form-control" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="txtCep" CssClass="form-control cep" runat="server"></asp:TextBox>
                 </div>
                 <div class="col-sm-2">
                     <label>Complemento:</label>
@@ -78,11 +78,16 @@
                     ShowSummary="true" DisplayMode="BulletList" />
             </div>
             <div class="col-sm-12 group-button">
-                <asp:Button ID="btnLimpar" CssClass="btn btn-default" runat="server" Text="Limpar" OnClick="btnLimpar_Click" />
+                <asp:Button ID="btnLimpar" CssClass="btn btn-default" CausesValidation="false" runat="server" Text="Limpar" OnClick="btnLimpar_Click" />
                 <asp:Button ID="btnSalvar" CssClass="btn btn-default" runat="server" Text="Salvar" OnClick="btnSalvar_Click" />
             </div>
         </div>
         <asp:HiddenField ID="hdfId" runat="server" />
         <asp:HiddenField ID="hdfIdEndereco" runat="server" />
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('.cep').mask('00.000-000');
+            });
+        </script>
     </asp:Panel>
 </asp:Content>

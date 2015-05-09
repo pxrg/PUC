@@ -8,7 +8,7 @@ namespace TI_Lab_2015.Model
 {
     [Serializable]
     [Class(Table="leituras_consumos")]
-    public class LeituraConsumo
+    public partial class LeituraConsumo
     {
         [Id(0, Name="Id",Column = "id")]
         [Generator(1, Class = "native")]

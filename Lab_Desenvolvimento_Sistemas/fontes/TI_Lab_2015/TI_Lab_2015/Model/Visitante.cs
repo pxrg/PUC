@@ -8,7 +8,7 @@ namespace TI_Lab_2015.Model
 {
     [Serializable]
     [Class(Table="visitantes")]
-    public class Visitante
+    public partial class Visitante
     {
         [Id(0, Name="Id",Column = "id")]
         [Generator(1, Class = "native")]

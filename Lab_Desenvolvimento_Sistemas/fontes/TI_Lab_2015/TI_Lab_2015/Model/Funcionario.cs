@@ -8,7 +8,7 @@ namespace TI_Lab_2015.Model
 {
     [Serializable]
     [UnionSubclass(Table = "funcionarios", Extends = "TI_Lab_2015.Model.Pessoa")]
-    public class Funcionario:Pessoa
+    public partial class Funcionario : Pessoa
     {
         [Property(Column = "funcao")]
         public virtual String Funcao { get; set; }
