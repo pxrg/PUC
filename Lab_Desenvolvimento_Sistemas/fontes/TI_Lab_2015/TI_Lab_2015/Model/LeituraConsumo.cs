@@ -21,7 +21,15 @@ namespace TI_Lab_2015.Model
         public virtual float ValorGas { get; set; }
         [Property(Column = "valor_energia", Scale = 5, Precision = 2)]
         public virtual float ValorEnergia { get; set; }
-        [ManyToOne(Column = "imovel")]
+
+        [Property(Column = "pagamento_agua", NotNull=false)]
+        public virtual DateTime? PagamentoAgua { get; set; }
+        [Property(Column = "pagamento_energia", NotNull = false)]
+        public virtual DateTime? PagamentoEnergia{ get; set; }
+        [Property(Column = "pagamento_gas", NotNull=false)]
+        public virtual DateTime? PagamentoGas { get; set; }
+
+        [ManyToOne(Column = "imovel", Lazy=Laziness.False)]
         public virtual Imovel Imovel { get; set; }
         
     }

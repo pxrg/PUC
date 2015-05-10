@@ -26,7 +26,7 @@
                 <label>Area:</label>
             </div>
             <div class="col-sm-4">
-                <asp:TextBox ID="txtArea" pattern="^[+-]?\d+(,\d{2})?" CssClass="form-control area" runat="server"></asp:TextBox>
+                <asp:TextBox ID="txtArea" CssClass="form-control area" runat="server"></asp:TextBox>
             </div>
             <div class="col-sm-2">
                 <label><span class="obrigatorio">*</span> Bloco:</label>
@@ -43,16 +43,25 @@
             <div class="col-sm-10">
                 <asp:DropDownList ID="ddlProprietario" CssClass="form-control" runat="server"></asp:DropDownList>
                 <asp:RequiredFieldValidator ID="rfvProprietario" ControlToValidate="ddlProprietario"
-                    CssClass="obrigatorio_span" runat="server"
+                    CssClass="obrigatorio_span" runat="server" InitialValue="0"
                     ErrorMessage="Proprietário" EnableClientScript="true" SetFocusOnError="true"></asp:RequiredFieldValidator>
+            </div>
+            <div class="col-sm-2">
+                <label><span class="obrigatorio">*</span> Condominio:</label>
+            </div>
+            <div class="col-sm-10">
+                <asp:DropDownList ID="ddlCondominio" CssClass="form-control" runat="server"></asp:DropDownList>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator1" ControlToValidate="ddlCondominio"
+                    CssClass="obrigatorio_span" runat="server" InitialValue="0"
+                    ErrorMessage="Condominio" EnableClientScript="true" SetFocusOnError="true"></asp:RequiredFieldValidator>
             </div>
             <div class="col-lg-12">
                 <asp:ValidationSummary ID="ValidationSummary1" CssClass="obrigatorio" runat="server" HeaderText="Verifique os campos obrigatórios:"
                     ShowSummary="true" DisplayMode="BulletList" />
             </div>
             <div class="col-sm-12 group-button">
-                <asp:Button ID="btnLimpar" CssClass="btn btn-default" CausesValidation="false" runat="server" Text="Limpar" />
-                <asp:Button ID="btnSalvar" CssClass="btn btn-default" runat="server" Text="Salvar" />
+                <asp:Button ID="btnLimpar" CssClass="btn btn-default" CausesValidation="false" runat="server" Text="Limpar" OnClick="btnLimpar_Click" />
+                <asp:Button ID="btnSalvar" CssClass="btn btn-default" runat="server" Text="Salvar" OnClick="btnSalvar_Click" />
             </div>
             <asp:HiddenField ID="hdfId" runat="server" />
             <script type="text/javascript">

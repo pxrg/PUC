@@ -236,6 +236,7 @@
     <Content Include="Sistema\ConsultarPagamento.aspx" />
     <Content Include="Sistema\ConsultarSaldoDevedor.aspx" />
     <Content Include="Sistema\ControleConsumo.aspx" />
+    <Content Include="Sistema\CadastroConsumo.aspx" />
     <Content Include="Sistema\EmitirBalancete.aspx" />
     <Content Include="Sistema\RegistroDespesa.aspx" />
     <Content Include="Sistema\RegistroReceita.aspx" />
@@ -389,6 +390,13 @@
     </Compile>
     <Compile Include="Sistema\ControleConsumo.aspx.designer.cs">
       <DependentUpon>ControleConsumo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\CadastroConsumo.aspx.cs">
+      <DependentUpon>CadastroConsumo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sistema\CadastroConsumo.aspx.designer.cs">
+      <DependentUpon>CadastroConsumo.aspx</DependentUpon>
     </Compile>
     <Compile Include="Sistema\EmitirBalancete.aspx.cs">
       <DependentUpon>EmitirBalancete.aspx</DependentUpon>

@@ -14,7 +14,10 @@ namespace TI_Lab_2015.Sistema
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            carregarPessoas();
+            if (!Page.IsPostBack)
+            {
+                carregarPessoas();
+            }
         }
 
         private void carregarPessoas()
@@ -24,6 +27,7 @@ namespace TI_Lab_2015.Sistema
             ddlProprietario.DataTextField = "nome";
             ddlProprietario.DataValueField = "id";
             ddlProprietario.DataBind();
+            ddlProprietario.Items.Insert(0, new ListItem(" Selecione ", "0"));
         }
 
         protected void btnSalvar_Click(object sender, EventArgs e)

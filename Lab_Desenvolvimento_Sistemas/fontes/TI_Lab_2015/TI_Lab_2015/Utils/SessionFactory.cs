@@ -16,7 +16,7 @@ namespace TI_Lab_2015.Utils
         private static volatile ISessionFactory iSessionFactory;
 
         private static object syncRoot = new Object();
-        private static bool updateDB = false;
+        private static bool updateDB = true;
 
 
         public static ISession OpenSession()

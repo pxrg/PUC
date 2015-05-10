@@ -7,10 +7,12 @@ using System.Web;
 namespace TI_Lab_2015.Model
 {
     [Serializable]
-    [Class(Table="imoveis")]
+    [Class(Table = "imoveis")]
     public partial class Imovel
     {
-        [Id(0, Name="Id",Column = "id")]
+        public Imovel() { }
+        public Imovel(Int16 id) { this.Id = id; }
+        [Id(0, Name = "Id", Column = "id")]
         [Generator(1, Class = "native")]
         public virtual Int16 Id { get; set; }
         [Property(Column = "numero")]

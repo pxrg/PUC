@@ -22,7 +22,7 @@ namespace TI_Lab_2015.Sistema
         {
             try
             {
-                if (!txtSenha.Equals(txtConfirmeSenha.Text))
+                if (!txtSenha.Text.Equals(txtConfirmeSenha.Text))
                 {
                     PageUtil.exibirAlert(this, "A confirmação de senha não confere!");
                     return;

@@ -7,7 +7,7 @@ using System.Web;
 namespace TI_Lab_2015.Model
 {
     [Serializable]
-    [Class(Table = "receitas")]
+    [Class(Table = "despesas")]
     public partial class Despesa
     {
         [Id(0, Name="Id",Column = "id")]

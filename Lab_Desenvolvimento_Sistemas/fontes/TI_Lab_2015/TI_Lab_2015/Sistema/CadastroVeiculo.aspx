@@ -27,9 +27,7 @@
             </div>
             <div class="col-sm-10">
                 <asp:DropDownList ID="ddlProprietario" CssClass="form-control" runat="server"></asp:DropDownList>
-                <asp:RequiredFieldValidator ID="rfvProprietario" ControlToValidate="ddlProprietario"
-                    CssClass="obrigatorio_span" runat="server"
-                    ErrorMessage="Proprietário" EnableClientScript="true" SetFocusOnError="true"></asp:RequiredFieldValidator>
+                
             </div>
             <div class="col-lg-12">
                 <asp:ValidationSummary ID="ValidationSummary1" CssClass="obrigatorio" runat="server" HeaderText="Verifique os campos obrigatórios:"
