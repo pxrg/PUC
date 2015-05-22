@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="CadastroCondominio.aspx.cs" Inherits="TI_Lab_2015.Sistema.CadastroCondominio" %>
+﻿      <%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="CadastroCondominio.aspx.cs" Inherits="TI_Lab_2015.Sistema.CadastroCondominio" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
 </asp:Content>
@@ -11,7 +11,7 @@
     <asp:Panel ID="pnlPrincipal" runat="server">
         <div class="row">
             <div class="col-sm-2">
-                <label><span class="obrigatorio">*</span> Nome:</label>
+                <label>Nome:<span class="obrigatorio">*</span></label>
             </div>
             <div class="col-sm-10">
                 <asp:TextBox ID="txtNome" CssClass="form-control" runat="server"></asp:TextBox>
@@ -21,7 +21,7 @@
             </div>
             <asp:Panel ID="pnlEndereco" runat="server">
                 <div class="col-sm-2">
-                    <label><span class="obrigatorio">*</span> Logradouro:</label>
+                    <label>Logradouro:<span class="obrigatorio">*</span></label>
                 </div>
                 <div class="col-sm-10">
                     <asp:TextBox ID="txtLogradouro" CssClass="form-control" runat="server"></asp:TextBox>
@@ -55,7 +55,7 @@
                 </div>
 
                 <div class="col-sm-2">
-                    <label><span class="obrigatorio">*</span> Cidade:</label>
+                    <label>Cidade:<span class="obrigatorio">*</span></label>
                 </div>
                 <div class="col-sm-4">
                     <asp:TextBox ID="txtCidade" CssClass="form-control" runat="server"></asp:TextBox>
@@ -64,7 +64,7 @@
                     ErrorMessage="Cidade" EnableClientScript="true" SetFocusOnError="true"></asp:RequiredFieldValidator>
                 </div>
                 <div class="col-sm-2">
-                    <label><span class="obrigatorio">*</span> Estado:</label>
+                    <label>Estado:<span class="obrigatorio">*</span></label>
                 </div>
                 <div class="col-sm-4">
                     <asp:TextBox ID="txtEstado" CssClass="form-control" runat="server"></asp:TextBox>

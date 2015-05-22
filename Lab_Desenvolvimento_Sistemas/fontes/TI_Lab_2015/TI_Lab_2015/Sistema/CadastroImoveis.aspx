@@ -8,7 +8,7 @@
     <asp:Panel ID="pnlPrincipal" runat="server">
         <div class="row">
             <div class="col-sm-2">
-                <label><span class="obrigatorio">*</span> Numero:</label>
+                <label>Numero:<span class="obrigatorio">*</span></label>
             </div>
             <div class="col-sm-4">
                 <asp:TextBox ID="txtNumero" CssClass="form-control" TextMode="Number" runat="server"></asp:TextBox>
@@ -29,7 +29,7 @@
                 <asp:TextBox ID="txtArea" CssClass="form-control area" runat="server"></asp:TextBox>
             </div>
             <div class="col-sm-2">
-                <label><span class="obrigatorio">*</span> Bloco:</label>
+                <label>Bloco:<span class="obrigatorio">*</span></label>
             </div>
             <div class="col-sm-4">
                 <asp:TextBox ID="txtBloco" CssClass="form-control Bloco" runat="server"></asp:TextBox>
@@ -38,7 +38,7 @@
                     ErrorMessage="Bloco" EnableClientScript="true" SetFocusOnError="true"></asp:RequiredFieldValidator>
             </div>
             <div class="col-sm-2">
-                <label><span class="obrigatorio">*</span> Proprietário:</label>
+                <label>Proprietário:<span class="obrigatorio">*</span></label>
             </div>
             <div class="col-sm-10">
                 <asp:DropDownList ID="ddlProprietario" CssClass="form-control" runat="server"></asp:DropDownList>
@@ -47,7 +47,7 @@
                     ErrorMessage="Proprietário" EnableClientScript="true" SetFocusOnError="true"></asp:RequiredFieldValidator>
             </div>
             <div class="col-sm-2">
-                <label><span class="obrigatorio">*</span> Condominio:</label>
+                <label>Condominio:<span class="obrigatorio">*</span></label>
             </div>
             <div class="col-sm-10">
                 <asp:DropDownList ID="ddlCondominio" CssClass="form-control" runat="server"></asp:DropDownList>

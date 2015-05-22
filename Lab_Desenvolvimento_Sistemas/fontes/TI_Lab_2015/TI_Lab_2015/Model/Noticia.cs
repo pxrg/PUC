@@ -21,7 +21,7 @@ namespace TI_Lab_2015.Model
         public virtual String Conteudo { get; set; }
         [Property(Column = "inclusao")]
         public virtual DateTime Inclusao { get; set; }
-        [ManyToOne(Column="id_condominio", NotNull=true)]
+        [ManyToOne(Column="id_condominio", NotNull=true, Lazy=Laziness.False)]
         public virtual Condominio Condominio{ get; set; }
 
     }

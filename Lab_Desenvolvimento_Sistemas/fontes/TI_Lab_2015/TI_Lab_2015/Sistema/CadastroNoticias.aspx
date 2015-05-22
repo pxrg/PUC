@@ -8,15 +8,15 @@
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="MainContent" runat="server">
         <div class="row">
-            <div class="col-sm-2"><label>Condominio:</label> </div>
+            <div class="col-sm-2"><label>Condominio:<span class="obrigatorio">*</span></label> </div>
             <div class="col-sm-10">
                 <asp:DropDownList ID="ddlCondominio" CssClass="form-control" runat="server"></asp:DropDownList>
             </div> 
-            <div class="col-sm-2"><label>Título:</label> </div>
+            <div class="col-sm-2"><label>Título:<span class="obrigatorio">*</span></label> </div>
             <div class="col-sm-10">
                 <asp:TextBox ID="txtTitulo" CssClass="form-control" runat="server"></asp:TextBox>
             </div>
-            <div class="col-sm-2"><label>Conteúdo:</label> </div>
+            <div class="col-sm-2"><label>Conteúdo:<span class="obrigatorio">*</span></label> </div>
             <div class="col-sm-10">
                 <asp:TextBox ID="txtConteudo" CssClass="form-control" runat="server" Columns="20" Rows="20" Height="200px" TextMode="MultiLine"></asp:TextBox>
             </div> 

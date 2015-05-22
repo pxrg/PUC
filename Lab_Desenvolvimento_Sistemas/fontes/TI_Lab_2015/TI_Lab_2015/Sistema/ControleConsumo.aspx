@@ -8,16 +8,22 @@
     <asp:Panel ID="pnlPrincipal" runat="server">
         <div class="row">
             <div class="col-sm-2">
+                <label>Condominio:</label>
+            </div>
+            <div class="col-sm-4">
+                <asp:DropDownList ID="ddlCondominio" OnSelectedIndexChanged="ddlCondominio_SelectedIndexChanged" CssClass="form-control" runat="server"></asp:DropDownList>
+            </div>
+            <div class="col-sm-2">
+                <label>Imovel:</label>
+            </div>
+            <div class="col-sm-4">
+                <asp:DropDownList ID="ddlImovel" CssClass="form-control" runat="server"></asp:DropDownList>
+            </div>
+            <div class="col-sm-2">
                 <label>Data:</label>
             </div>
             <div class="col-sm-4">
                 <asp:TextBox ID="txtData" TextMode="Date" CssClass="form-control area" runat="server"></asp:TextBox>
-            </div>
-            <div class="col-sm-2">
-                <label><span class="obrigatorio">*</span> Imovel:</label>
-            </div>
-            <div class="col-sm-4">
-                <asp:DropDownList ID="ddlImovel" CssClass="form-control" runat="server"></asp:DropDownList>
             </div>
             <div class="col-sm-12 group-button">
                 <asp:Button ID="btnLimpar" CssClass="btn btn-default" CausesValidation="false" runat="server" Text="Limpar" OnClick="btnLimpar_Click" />

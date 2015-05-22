@@ -31,7 +31,7 @@
                 <asp:TextBox ID="txtAgua" CssClass="form-control float" runat="server"></asp:TextBox>
             </div>
             <div class="col-sm-2">
-                <label><span class="obrigatorio">*</span> Imovel:</label>
+                <label>Imovel:<span class="obrigatorio">*</span></label>
             </div>
             <div class="col-sm-10">
                 <asp:DropDownList ID="ddlImovel" CssClass="form-control" runat="server"></asp:DropDownList>

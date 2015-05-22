@@ -8,7 +8,7 @@
     <asp:Panel ID="pnlPrincipal" runat="server">
         <div class="row">
             <div class="col-sm-2">
-                <label><span class="obrigatorio">*</span> Nome:</label>
+                <label>Nome:<span class="obrigatorio">*</span></label>
             </div>
             <div class="col-sm-10">
                 <asp:TextBox ID="txtNome" CssClass="form-control" runat="server"></asp:TextBox>
@@ -17,7 +17,7 @@
                     ErrorMessage="Nome" EnableClientScript="true" SetFocusOnError="true"></asp:RequiredFieldValidator>
             </div>
             <div class="col-sm-2">
-                <label><span class="obrigatorio">*</span> Cpf:</label>
+                <label>Cpf:<span class="obrigatorio">*</span></label>
             </div>
             <div class="col-sm-4">
                 <asp:TextBox ID="txtCpf" CssClass="form-control cpf" runat="server"></asp:TextBox>
@@ -47,14 +47,14 @@
                 <asp:TextBox ID="txtTelefone" CssClass="form-control telefone" runat="server"></asp:TextBox>
             </div>
             <div class="col-sm-2">
-                <label><span class="obrigatorio">*</span> Usuario:</label>
+                <label>Usuario:<span class="obrigatorio">*</span></label>
             </div>
             <div class="col-sm-10">
                 <asp:TextBox ID="txtUsuario" CssClass="form-control" runat="server"></asp:TextBox>
             </div>
 
             <div class="col-sm-2">
-                <label><span class="obrigatorio">*</span> Senha:</label>
+                <label>Senha:<span class="obrigatorio">*</span></label>
             </div>
             <div class="col-sm-4">
 
@@ -64,7 +64,7 @@
                     ErrorMessage="Senha" EnableClientScript="true" SetFocusOnError="true"></asp:RequiredFieldValidator>
             </div>
             <div class="col-sm-2">
-                <label><span class="obrigatorio">*</span> Confime a Senha:</label>
+                <label>Confime a Senha:<span class="obrigatorio">*</span></label>
             </div>
             <div class="col-sm-4">
 

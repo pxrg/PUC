@@ -53,6 +53,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Iesi.Collections.3.2.0.4000\lib\Net35\Iesi.Collections.dll</HintPath>
     </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\packages\log4net.2.0.3\lib\net40-full\log4net.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="NHibernate, Version=3.3.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -237,6 +240,7 @@
     <Content Include="Sistema\ConsultarSaldoDevedor.aspx" />
     <Content Include="Sistema\ControleConsumo.aspx" />
     <Content Include="Sistema\CadastroConsumo.aspx" />
+    <Content Include="Sistema\VisualizarNoticia.aspx" />
     <Content Include="Sistema\EmitirBalancete.aspx" />
     <Content Include="Sistema\RegistroDespesa.aspx" />
     <Content Include="Sistema\RegistroReceita.aspx" />
@@ -333,7 +337,9 @@
     <Compile Include="Model\Veiculo.cs" />
     <Compile Include="Model\Visitante.cs" />
     <Compile Include="Persistence\Condominio.cs" />
+    <Compile Include="Persistence\Despesa.cs" />
     <Compile Include="Persistence\NHibernateDAO.cs" />
+    <Compile Include="Persistence\Receita.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sistema\CadastroCondominio.aspx.cs">
       <DependentUpon>CadastroCondominio.aspx</DependentUpon>
@@ -397,6 +403,13 @@
     </Compile>
     <Compile Include="Sistema\CadastroConsumo.aspx.designer.cs">
       <DependentUpon>CadastroConsumo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\VisualizarNoticia.aspx.cs">
+      <DependentUpon>VisualizarNoticia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sistema\VisualizarNoticia.aspx.designer.cs">
+      <DependentUpon>VisualizarNoticia.aspx</DependentUpon>
     </Compile>
     <Compile Include="Sistema\EmitirBalancete.aspx.cs">
       <DependentUpon>EmitirBalancete.aspx</DependentUpon>

@@ -10,7 +10,7 @@ namespace TI_Lab_2015.Model
     [Class(Table = "despesas")]
     public partial class Despesa
     {
-        [Id(0, Name="Id",Column = "id")]
+        [Id(0, Name = "Id", Column = "id")]
         [Generator(1, Class = "native")]
         public virtual Int16 Id { get; set; }
         [Property(Column = "descricao")]
@@ -23,9 +23,37 @@ namespace TI_Lab_2015.Model
         public virtual DateTime DataRealizacao { get; set; }
         [Property(Column = "vencimento")]
         public virtual DateTime Vencimento { get; set; }
+        [Property(Column = "data_quitacao")]
+        public virtual DateTime? DataQuitacao { get; set; }
         [Property(Column = "juros", Scale = 5, Precision = 2)]
         public virtual float Juros { get; set; }
-        [ManyToOne(Column = "id_condominio")]
+        [ManyToOne(Column = "id_condominio", Lazy=Laziness.False)]
         public virtual Condominio Condominio { get; set; }
+
+        public virtual String retornarSituacao()
+        {
+            String situacao = String.Empty;
+            if (DataQuitacao == null)
+            {
+                switch (Vencimento.CompareTo(DateTime.Now))
+                {
+                    case 1:
+                        situacao = "Em aberto";
+                        break;
+                    case 0:
+                        situacao = "Vencendo";
+                        break;
+                    case -1:
+                        situacao = "Vencida";
+                        break;
+                }
+
+            }
+            else
+            {
+                situacao = "Quitada";
+            }
+            return situacao;
+        }
     }
 }

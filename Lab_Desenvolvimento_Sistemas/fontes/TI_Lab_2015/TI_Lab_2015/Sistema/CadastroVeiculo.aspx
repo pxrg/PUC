@@ -8,7 +8,7 @@
     <asp:Panel ID="pnlPrincipal" runat="server">
         <div class="row">
             <div class="col-sm-2">
-                <label><span class="obrigatorio">*</span> Placa:</label>
+                <label>Placa:<span class="obrigatorio">*</span></label>
             </div>
             <div class="col-sm-4">
                 <asp:TextBox ID="txtPlaca" CssClass="form-control placa" runat="server"></asp:TextBox>
@@ -23,7 +23,7 @@
                 <asp:TextBox ID="txtVaga" CssClass="form-control vaga" runat="server"></asp:TextBox>
             </div>
             <div class="col-sm-2">
-                <label><span class="obrigatorio">*</span> Proprietário:</label>
+                <label>Proprietário:<span class="obrigatorio">*</span></label>
             </div>
             <div class="col-sm-10">
                 <asp:DropDownList ID="ddlProprietario" CssClass="form-control" runat="server"></asp:DropDownList>

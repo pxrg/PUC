@@ -22,13 +22,13 @@ namespace TI_Lab_2015.Sistema {
         protected global::System.Web.UI.WebControls.Panel pnlPrincipal;
         
         /// <summary>
-        /// txtData control.
+        /// ddlCondominio control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtData;
+        protected global::System.Web.UI.WebControls.DropDownList ddlCondominio;
         
         /// <summary>
         /// ddlImovel control.
@@ -38,6 +38,15 @@ namespace TI_Lab_2015.Sistema {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList ddlImovel;
+        
+        /// <summary>
+        /// txtData control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtData;
         
         /// <summary>
         /// btnLimpar control.

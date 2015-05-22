@@ -17,6 +17,11 @@ namespace TI_Lab_2015.Sistema
             if (!Page.IsPostBack)
             {
                 carregarCondominios();
+                String id = Request.QueryString["id"];
+                if (id != null)
+                {
+                    carregarObj(Int16.Parse(id));
+                }
             }
         }
 
@@ -35,7 +40,20 @@ namespace TI_Lab_2015.Sistema
 
         protected void btnLimpar_Click(object sender, EventArgs e)
         {
+            limparCampos();
+        }
 
+        private void limparCampos()
+        {
+            hdfId.Value = String.Empty;
+            txtTitulo.Text = String.Empty;
+            txtTipo.Text = String.Empty;
+            txtValor.Text = String.Empty;
+            txtDataRealizacao.Text = String.Empty;
+            txtVencimento.Text = String.Empty;
+            txtJuros.Text = String.Empty;
+            //carregarCondominios();
+            PageUtil.limparParametrosGet(this);
         }
 
         public void salvarDespesa()
@@ -54,17 +72,30 @@ namespace TI_Lab_2015.Sistema
             despesa.Condominio = new Condominio(Int16.Parse(ddlCondominio.SelectedValue));
             NHibernateDAO.save(despesa);
             hdfId.Value = despesa.Id.ToString();
+            btnRateio.Visible = true;
         }
 
+        private void carregarObj(Int16 id)
+        {
+            Despesa despesa = NHibernateDAO.findById<Despesa>(id);
+            if (despesa == null)
+            {
+                return;
+            }
+            hdfId.Value = despesa.Id.ToString();
+            txtTitulo.Text = despesa.Descricao;
+            txtTipo.Text = despesa.Tipo;
+            txtValor.Text = despesa.Valor.ToString("C");
+            txtDataRealizacao.Text = despesa.DataRealizacao.ToString("yyyy-MM-dd");
+            txtVencimento.Text = despesa.Vencimento.ToString("yyyy-MM-dd");
+            txtJuros.Text = despesa.Juros.ToString();
+            ddlCondominio.SelectedValue = despesa.Condominio.Id.ToString();
+            btnRateio.Visible = true;
+        }
 
         private void carregarCondominios()
         {
-            IList<Condominio> pessoas = NHibernateDAO.findAll<Condominio>("nome");
-            ddlCondominio.DataSource = pessoas;
-            ddlCondominio.DataTextField = "nome";
-            ddlCondominio.DataValueField = "id";
-            ddlCondominio.DataBind();
-            ddlCondominio.Items.Insert(0, new ListItem(" Selecione ", "0"));
+            PageUtil.CarregarCondominios(ddlCondominio, " Selecione ");
         }
     }
 }

@@ -18,7 +18,8 @@ namespace TI_Lab_2015.Sistema
         {
             if (!Page.IsPostBack)
             {
-                carregarImoveis();
+                carregarCondominios();
+                //carregarImoveis();
             }
         }
 
@@ -68,6 +69,27 @@ namespace TI_Lab_2015.Sistema
             ddlImovel.Items.Insert(0, new ListItem(" Todos ", "0"));
         }
 
+        private void carregarCondominios()
+        {
+            IList<Condominio> cond = NHibernateDAO.findAll<Condominio>("nome");
+            ddlCondominio.DataSource = cond;
+            ddlCondominio.DataTextField = "nome";
+            ddlCondominio.DataValueField = "id";
+            ddlCondominio.DataBind();
+        }
+
+        private void carregarImoveis(Int16 idCondominio)
+        {
+            Dictionary<String, Object> dict = new Dictionary<string, object>();
+            dict.Add("Condominio.Id", idCondominio);
+            IList<Imovel> objs = NHibernateDAO.find<Imovel>(dict);
+            ddlImovel.DataSource = objs;
+            ddlImovel.DataTextField = "numero";
+            ddlImovel.DataValueField = "id";
+            ddlImovel.DataBind();
+            ddlImovel.Items.Insert(0, new ListItem(" Todos ", "0"));
+        }
+
         protected void chkPagAgua_CheckedChanged(object sender, EventArgs e)
         {
             carregarLeituras();
@@ -90,7 +112,6 @@ namespace TI_Lab_2015.Sistema
                 }
             }
         }
-
 
         protected void chkPagGas_CheckedChanged(object sender, EventArgs e)
         {
@@ -138,6 +159,17 @@ namespace TI_Lab_2015.Sistema
             }
         }
 
-
+        protected void ddlCondominio_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (ddlCondominio.SelectedIndex > 0)
+            {
+                Int16 id_cond = Int16.Parse(ddlCondominio.SelectedItem.Value);
+                carregarImoveis(id_cond);
+            }
+            else
+            {
+                ddlImovel.Items.Clear();
+            }
+        }
     }
 }

@@ -85,6 +85,15 @@ namespace TI_Lab_2015.Sistema {
         protected global::System.Web.UI.WebControls.TextBox txtValor;
         
         /// <summary>
+        /// RequiredFieldValidator2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator2;
+        
+        /// <summary>
         /// txtJuros control.
         /// </summary>
         /// <remarks>
@@ -103,6 +112,15 @@ namespace TI_Lab_2015.Sistema {
         protected global::System.Web.UI.WebControls.TextBox txtDataRealizacao;
         
         /// <summary>
+        /// RequiredFieldValidator4 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator4;
+        
+        /// <summary>
         /// txtVencimento control.
         /// </summary>
         /// <remarks>
@@ -112,6 +130,15 @@ namespace TI_Lab_2015.Sistema {
         protected global::System.Web.UI.WebControls.TextBox txtVencimento;
         
         /// <summary>
+        /// RequiredFieldValidator3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator3;
+        
+        /// <summary>
         /// ValidationSummary1 control.
         /// </summary>
         /// <remarks>
@@ -119,6 +146,15 @@ namespace TI_Lab_2015.Sistema {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ValidationSummary ValidationSummary1;
+        
+        /// <summary>
+        /// btnRateio control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnRateio;
         
         /// <summary>
         /// btnLimpar control.

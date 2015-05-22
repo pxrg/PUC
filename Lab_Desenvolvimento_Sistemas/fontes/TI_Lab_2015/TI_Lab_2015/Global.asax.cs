@@ -17,6 +17,7 @@ namespace TI_Lab_2015
             AppDomain.CurrentDomain.SetData("SQLServerCompactEditionUnderWebHosting", true);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
             AuthConfig.RegisterOpenAuth();
+            log4net.Config.XmlConfigurator.Configure();
         }
 
         void Application_End(object sender, EventArgs e)
